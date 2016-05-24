@@ -260,8 +260,8 @@ header h1 {
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+  /* font-size: 13px; */
+  /* font-size: 0.8125rem; */
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -297,16 +297,16 @@ header h1 {
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
+    /* font-size: 20px; */
+    /* font-size: 1.25rem; */
   }
   .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
+    /* font-size: 16px; */
+    /* font-size: 1rem; */
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
+    /* font-size: 14px; */
+    /* font-size: 0.875rem; */
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -329,8 +329,8 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    /* font-size: 16px; */
+    /* font-size: 1rem; */
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
