@@ -15,7 +15,7 @@ html * {
 }
 
 body {
-  font-size: 100%;
+  /* font-size: 100%; */
   color: #7f8c97;
   background-color: #e9f0f5;
 }
@@ -69,8 +69,8 @@ header {
 }
 header h1 {
   color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
+  /* font-size: 18px; */
+  /* font-size: 1.125rem; */
 }
 @media only screen and (min-width: 1170px) {
   header {
@@ -78,8 +78,8 @@ header h1 {
     line-height: 300px;
   }
   header h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
+    /* font-size: 24px; */
+    /* font-size: 1.5rem; */
   }
 }
 
