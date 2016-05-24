@@ -261,8 +261,10 @@ header h1 {
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  /*
   font-size: 13px;
   font-size: 0.8125rem;
+  */
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
