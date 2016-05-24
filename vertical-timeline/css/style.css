@@ -14,12 +14,13 @@ html * {
   box-sizing: border-box;
 }
 
+/*
 body {
-  /* font-size: 100%; */
+  font-size: 100%;
   color: #7f8c97;
   background-color: #e9f0f5;
 }
-
+*/
 /*
 a {
   color: #acb7c0;
@@ -54,6 +55,7 @@ Modules - reusable parts of our design
   content: '';
   display: table;
   clear: both;
+  background-color: #e9f0f5;
 }
 
 /* -------------------------------- 
