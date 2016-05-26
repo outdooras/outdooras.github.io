@@ -252,7 +252,8 @@ header h1 {
   background-color: #383838;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow: 0 3px 0 #a9a9a9;
+  /* box-shadow: 0 3px 0 #d7e4ed; */
 }
 .cd-timeline-content:after {
   content: "";
@@ -278,8 +279,10 @@ header h1 {
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
-  color: white;
+  background: #ffffff;
+  /* background: #acb7c0; */
+  color: black;
+  /* color: white; */
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
