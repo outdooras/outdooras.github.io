@@ -248,7 +248,8 @@ header h1 {
   position: relative;
   margin-left: 60px;
   background: white;
-  background-color: #e9f0f5;
+  /* background-color: #e9f0f5; */
+  background-color: #383838;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
@@ -264,7 +265,7 @@ header h1 {
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   /* font-size: 13px; */
   /* font-size: 0.8125rem; */
-  text-color: #E6830F;
+  color: ##e6830f;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
