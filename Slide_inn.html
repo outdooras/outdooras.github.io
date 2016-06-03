@@ -1,0 +1,163 @@
+<meta charset="utf-8" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+<script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+<style type="text/css">
+
+head {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: #303e49;
+}
+/*
+#fbbutton {
+    background-color: #383838;
+    border: none;
+    color: #e6830f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:fixed;
+	right: 0;
+	top: 50%;
+	box-shadow: 10px 10px 5px #888888;
+}
+*/
+  #toggle {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background: #ccc; */
+    /* text-align: center; */
+    /*text-decoration: none;*/
+    /* font-size: 14px; */
+    background-color: #383838;
+    border: none;
+    color: #e6830f;
+    padding: 10px 20px;
+    display: inline-block;
+    position:fixed;
+	right: 0;
+	top: 30%;
+	box-shadow: 10px 10px 5px #888888;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	opacity: .6;
+	filter: Alpha(Opacity=60); /* support: IE8 */
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	/* Remove? */
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}	
+  #toggle:hover {
+	opacity: 1.0;
+	filter: Alpha(Opacity=100); /* support: IE8 */
+}
+ .toggle h1 {
+ 	text-shadow: 10px 10px 5px #e6830f;
+ 	font-size: 14px;
+ 	text-align: center;
+}
+ 
+ .toggle p {
+	font-size:8px;
+	text-align: left;
+ }
+ 
+ #toggleclick {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background: #ccc; */
+    /* text-align: center; */
+    /*text-decoration: none;*/
+    /* font-size: 14px; */
+    background-color: #383838;
+    border: none;
+    color: #e6830f;
+    padding: 10px 20px;
+    display: inline-block;
+    position:fixed;
+	top: 30%;
+	left: 0;
+	box-shadow: 10px 10px 5px #888888;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	opacity: .6;
+	filter: Alpha(Opacity=60); /* support: IE8 */
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	/* Remove? */
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}	
+  #toggleclick:hover {
+	opacity: 1.0;
+	filter: Alpha(Opacity=100); /* support: IE8 */
+}
+ .toggleclick h1 {
+ 	text-shadow: 10px 10px 5px #e6830f;
+ 	font-size: 14px;
+ 	text-align: center;
+}
+ 
+ .toggleclick p {
+	font-size:8px;
+	text-align: left;
+ }
+
+  /*#togglecontent {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background: #ccc; */
+    /*background-color: #383838;
+    border: none;
+    color: #e6830f;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position:fixed;
+	right: 0;
+	top: 30%;
+	box-shadow: 10px 10px 5px #888888;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}	*/
+
+	#maincontent {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 580px;
+  margin: 30% auto;
+	}
+</style>
+<div id="toggle">
+<h1>LOREM IPSUM</h1>
+
+<p>lorem ipsum</p>
+</div>
+
+<div id="maincontent">
+<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+</div>
+
+<div id="toggleclick">
+<h1>LOREM IPSUM</h1>
+
+<p>lorem ipsum</p>
+</div>
+<script>
+$( document ).click(function() {
+  $( "#toggle" ).toggle( "slide left" );
+});
+</script><script>
+$( document ).click(function() {
+  $( "#toggleclick" ).toggleclick( "slide right" );
+});
+</script>
