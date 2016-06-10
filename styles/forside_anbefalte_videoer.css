@@ -64,3 +64,36 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	text-align: center;
 }
+
+.thumbnail {      
+  display: -webkit-flex;        
+  display: -ms-flexbox;     
+  display: flex;
+  overflow: hidden;
+}
+.thumbnail .col {
+  flex: 1;
+  padding: 20px;
+}
+.thumbnail .col:nth-child(1) { 
+  background: #ccc; 
+  -webkit-order: 1; 
+      -ms-flex-order: 1; 
+          order: 1;
+}
+.thumbnail .col:nth-child(2) { 
+  background: #eee;
+  -webkit-order: 0;
+      -ms-flex-order: 0;
+          order: 0;
+}
+.thumbnail .col:nth-child(3) { 
+  background: #eee;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+body {
+  padding: 20px;
+}
