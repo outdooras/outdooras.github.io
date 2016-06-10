@@ -24,6 +24,8 @@
     text-align: justify;
 	font-size: 11px;
     text-align: center;
+	overflow: hidden;
+	max-width: 75ch;
 }
 
 #text2{ 
