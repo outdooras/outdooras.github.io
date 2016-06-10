@@ -64,7 +64,7 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	text-align: center;
 }
-
+/*
 .thumbnail {      
   display: -webkit-flex;        
   display: -ms-flexbox;     
@@ -93,7 +93,7 @@
       -ms-flex-order: 2;
           order: 2;
 }
-
+*/
 body {
   padding: 20px;
 }
