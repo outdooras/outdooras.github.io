@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Bootstrap 3 Thumbnails</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<link href="https://outdooras.github.io/styles/forside_anbefalte_videoer.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head> 
+<body>
+<div class="bs-example">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+			                <div class="thumbnail">
+			<div id="heading1">The Island of Everything</div>
+                    <p id="text1">When you’re exploring far-off places, it helps to be ready for just about everything. On a recent sailing trip through a remote part of the Pacific, a crew from Patagonia made the most of the ever-changing conditions, scoring all-time kiting, fishing, surfing and diving—along with a few perfect barrels in some of the clearest water in the world. Featuring Kohl Christensen, Hank Gaskell, Jason Slezak, Reo Stevens and more.</p>
+					</div>
+                <a href="#" class="thumbnail">
+				<iframe allowfullscreen="" class="embed-responsive-item" frameborder="0" height="280px" src="https://www.youtube.com/embed/ujgyIJxu3i0?rel=0&amp;showinfo=0" width="100%"></iframe>
+                    <!-- <img src="https://www.youtube.com/embed/ujgyIJxu3i0?rel=0&amp;showinfo=0" alt="125x125"> -->
+                </a>
+            </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+			                <div class="thumbnail">
+			<div id="heading1">The Island of Everything</div>
+                    <p id="text1"></p>
+					</div>
+                <a href="#" class="thumbnail">
+				<iframe allowfullscreen="" class="embed-responsive-item" frameborder="0" height="280px" src="https://www.youtube.com/embed/ujgyIJxu3i0?rel=0&amp;showinfo=0" width="100%"></iframe>
+                    <!-- <img src="https://www.youtube.com/embed/ujgyIJxu3i0?rel=0&amp;showinfo=0" alt="125x125"> -->
+                </a>
+            </div>
+			            <div class="col-xs-12 col-sm-6 col-md-4">
+			                <div class="thumbnail">
+			<div id="heading1">The Island of Everything</div>
+                    <p id="text1">When you’re exploring far-off places, it helps to be ready for just about everything. On a recent sailing trip through a remote part of the Pacific, a crew from Patagonia made the most of the ever-changing conditions, scoring all-time kiting, fishing, surfing and diving—along with a few perfect barrels in some of the clearest water in the world. Featuring Kohl Christensen, Hank Gaskell, Jason Slezak, Reo Stevens and more.</p>
+					</div>
+                <a href="#" class="thumbnail">
+				<iframe allowfullscreen="" class="embed-responsive-item" frameborder="0" height="280px" src="https://www.youtube.com/embed/ujgyIJxu3i0?rel=0&amp;showinfo=0" width="100%"></iframe>
+                    <!-- <img src="https://www.youtube.com/embed/ujgyIJxu3i0?rel=0&amp;showinfo=0" alt="125x125"> -->
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>                                		
