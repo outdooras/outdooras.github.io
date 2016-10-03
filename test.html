@@ -1,14 +1,41 @@
-<!DOCTYPE html>
-<html>
-<script src="http://www.w3schools.com/lib/w3data.js"></script>
+       
+<!-- START /modules/includes-head -->
 
-<body>
+<link href="http://outdoor.no/themes/javascript/jquery/chosen/chosen.min.css?v=20160824" rel="stylesheet" />
+<link href="http://outdoor.no/themes/stylesheet/bootstrap.min.css?v=20160824" rel="stylesheet" />
+<link href="http://outdoor.no/themes/stylesheet/stylesheet.min.css?v=20160824" rel="stylesheet" />
+<link href="http://outdoor.no/themes/stylesheet/animation.min.css?v=20160824" rel="stylesheet" />
+<link href="http://outdoor.no/themes/stylesheet/font-awesome.min.css?v=20160824" rel="stylesheet" />
+<link href="http://outdoor.no/themes/stylesheet/slideshow.min.css?v=20160824" rel="stylesheet" />
+<link href="http://outdoor.no/themes/stylesheet/flexslider.min.css?v=20160824" rel="stylesheet" />
+<link href="http://outdoor.no/themes/stylesheet/typeahead.css?v=20160824" rel="stylesheet" />
+    <link href="http://outdoor.no/themes/stylesheet/custom.css" rel="stylesheet" />
+    <link href="http://outdoor.no/themes/stylesheet/custom-gallery.css" rel="stylesheet" />
 
-<div w3-include-html="forside_anbefalte_videoer.html"></div> 
+<link href='https://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
 
+<script type="text/javascript" src="http://outdoor.no/themes/javascript/jquery/jquery-1.11.1.min.js"></script>
 <script>
-w3IncludeHTML();
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(
+                document.createTextNode(
+                        "@-ms-viewport{width:auto!important}"
+                )
+        );
+        document.getElementsByTagName("head")[0].
+                appendChild(msViewportStyle);
+    }
 </script>
-
-</body>
-</html>
+<div id="success"></div>
+<div id="error"></div>
+ 
+<script>
+$( "#success" ).load( "https://outdooras.github.io/forside_anbefalte_videoer.html", function( response, status, xhr ) {
+  if ( status == "error" ) {
+    var msg = "Sorry but there was an error: ";
+    $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+  }
+});
+</script>
