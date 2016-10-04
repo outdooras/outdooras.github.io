@@ -1,5 +1,5 @@
 <!-- SLETT VED UTRULLING -->
-
+<link href="embed_responsive_youtube.css" rel="stylesheet" />
 <link href="http://outdoor.no/themes/javascript/jquery/chosen/chosen.min.css?v=20160824" rel="stylesheet" />
 <link href="http://outdoor.no/themes/stylesheet/bootstrap.min.css?v=20160824" rel="stylesheet" />
 <link href="http://outdoor.no/themes/stylesheet/stylesheet.min.css?v=20160824" rel="stylesheet" />
@@ -32,7 +32,7 @@
 <div id="error"></div>
  
 <script>
-$( "#success" ).load( "https://outdooras.github.io/forside_anbefalte_videoer.html", function( response, status, xhr ) {
+$( "#success" ).load( "forside_anbefalte_videoer.html", function( response, status, xhr ) {
   if ( status == "error" ) {
     var msg = "Sorry but there was an error: ";
     $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
