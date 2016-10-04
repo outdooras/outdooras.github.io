@@ -1,0 +1,27 @@
+<!-- Fix IE 10 on Windows Phone 8 Viewport -->
+<script>
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(
+                document.createTextNode(
+                        "@-ms-viewport{width:auto!important}"
+                )
+        );
+        document.getElementsByTagName("head")[0].
+                appendChild(msViewportStyle);
+    }
+</script>
+
+<!-- Output -->
+<div id="success"></div>
+<div id="error"></div>
+
+<!-- Load page -->
+<script>
+$( "#success" ).load( "https://outdooras.github.io/forside_anbefalte_videoer.html", function( response, status, xhr ) {
+  if ( status == "error" ) {
+    var msg = "Beklager, men innlasting av videoer feilet. Send oss en mail på webshop@outdoor.no med feilmelding: ";
+    $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+  }
+});
+</script>

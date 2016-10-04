@@ -38,7 +38,7 @@
 <script>
 $( "#success" ).load( "https://outdooras.github.io/forside_anbefalte_videoer.html", function( response, status, xhr ) {
   if ( status == "error" ) {
-    var msg = "Sorry but there was an error: ";
+    var msg = "Beklager, men innlasting av videoer feilet. Send oss en mail på webshop@outdoor.no med feilmelding: ";
     $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
   }
 });
