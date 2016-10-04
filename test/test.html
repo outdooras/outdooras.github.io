@@ -16,6 +16,7 @@
 <script type="text/javascript" src="http://outdoor.no/themes/javascript/jquery/jquery-1.11.1.min.js"></script>
 
 <!-- KOPIER VED UTRULLING -->
+<!-- Fix IE 10 on Windows Phone 8 Viewport -->
 <script>
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         var msViewportStyle = document.createElement("style");
@@ -28,11 +29,14 @@
                 appendChild(msViewportStyle);
     }
 </script>
+
+<!-- Output -->
 <div id="success"></div>
 <div id="error"></div>
- 
+
+<!-- Load page -->
 <script>
-$( "#success" ).load( "forside_anbefalte_videoer.html", function( response, status, xhr ) {
+$( "#success" ).load( "https://outdooras.github.io/forside_anbefalte_videoer.html", function( response, status, xhr ) {
   if ( status == "error" ) {
     var msg = "Sorry but there was an error: ";
     $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
