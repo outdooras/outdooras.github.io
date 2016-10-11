@@ -1,0 +1,15 @@
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ 
+<b>Successful Response (should be blank):</b>
+<div id="success"></div>
+<b>Error Response:</b>
+<div id="error"></div>
+ 
+<script>
+$( "#success" ).load( "https://www.vg.no", function( response, status, xhr ) {
+  if ( status == "error" ) {
+    var msg = "Sorry but there was an error: ";
+    $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+  }
+});
+</script>
