@@ -1,13 +1,47 @@
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
- 
-<div id="success"></div>
-<div id="error"></div>
- 
+<!-- START TEST FILES - REMOVE BEFORE LIVE -->
+
+<link href="http://www.outdoor.no/themes/javascript/jquery/chosen/chosen.min.css?v=20160824" rel="stylesheet" />
+<link href="http://www.outdoor.no/themes/stylesheet/bootstrap.min.css?v=20160824" rel="stylesheet" />
+<link href="http://www.outdoor.no/themes/stylesheet/stylesheet.min.css?v=20160824" rel="stylesheet" />
+<link href="http://www.outdoor.no/themes/stylesheet/animation.min.css?v=20160824" rel="stylesheet" />
+<link href="http://www.outdoor.no/themes/stylesheet/font-awesome.min.css?v=20160824" rel="stylesheet" />
+<link href="http://www.outdoor.no/themes/stylesheet/slideshow.min.css?v=20160824" rel="stylesheet" />
+<link href="http://www.outdoor.no/themes/stylesheet/flexslider.min.css?v=20160824" rel="stylesheet" />
+<link href="http://www.outdoor.no/themes/stylesheet/typeahead.css?v=20160824" rel="stylesheet" />
+    <link href="http://www.outdoor.no/themes/stylesheet/custom.css" rel="stylesheet" />
+    <link href="http://www.outdoor.no/themes/stylesheet/custom-gallery.css" rel="stylesheet" />
+
+<link href='https://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="http://www.outdoor.no/themes/javascript/jquery/jquery-1.11.1.min.js"></script>
 <script>
-$( "#success" ).load( "https://www.vg.no", function( response, status, xhr ) {
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(
+                document.createTextNode(
+                        "@-ms-viewport{width:auto!important}"
+                )
+        );
+        document.getElementsByTagName("head")[0].
+                appendChild(msViewportStyle);
+    }
+</script>
+
+<!-- END -->
+
+<!doctype html>
+<html lang="en">
+<!-- Output -->
+<div id="success">&nbsp;</div>
+
+<div id="error">&nbsp;</div>
+<!-- Load page --><script>
+$( "#success" ).load( "https://outdooras.github.io/forside_anbefalte_videoer.html", function( response, status, xhr ) {
   if ( status == "error" ) {
-    var msg = "Beklager, men det har skjedd en feil: ";
+    var msg = "Beklager, men innlasting av videoer feilet. Send oss en mail på webshop@outdoor.no med feilmelding: ";
     $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
   }
 });
 </script>
+</html>
