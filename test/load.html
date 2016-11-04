@@ -4,7 +4,7 @@
 <div id="error"></div>
  
 <script>
-$( "#success" ).load( "https://www.vg.no", function( response, status, xhr ) {
+$( "#success" ).load( "https://www.outdoor.no, function( response, status, xhr ) {
   if ( status == "error" ) {
     var msg = "Beklager, men det har skjedd en feil: ";
     $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
