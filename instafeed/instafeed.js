@@ -9,14 +9,16 @@ jQuery( document ).ready(function($) {
  
  after: function() {
  $('.owl-carousel').owlCarousel({
- items:4,
- loop:false,
- margin:0,
- navigation: true,
- navigationText: true,
- autoPlay: true,
-  itemsDesktop : [1199,3],
-  itemsDesktopSmall : [979,3]
+    items : 10, //10 items above 1000px browser width
+    itemsDesktop : [1000,5], //5 items between 1000px and 901px
+    itemsDesktopSmall : [900,3], // betweem 900px and 601px
+    itemsTablet: [600,2], //2 items between 600 and 0
+    itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+	loop:false,
+	margin:0,
+	navigation: true,
+	navigationText: true,
+	autoPlay: true,
  });
   // Custom Navigation Events
   $(".next").click(function(){
@@ -31,8 +33,6 @@ jQuery( document ).ready(function($) {
   $(".stop").click(function(){
     owl.trigger('owl.stop');
   })
- 
-});
  }
  });
  feed.run();
