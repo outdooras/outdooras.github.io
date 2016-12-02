@@ -9,7 +9,7 @@ jQuery( document ).ready(function($) {
  
  after: function() {
  $('.owl-carousel').owlCarousel({
- items:3,
+ items:4,
  loop:false,
  margin:1,
  navigation: true,
