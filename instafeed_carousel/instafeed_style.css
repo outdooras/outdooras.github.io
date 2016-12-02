@@ -40,30 +40,3 @@
 #instafeed a:hover .likes {
 	opacity:1;
 }
-
-.owl-controls {
- text-align: center;
- }
- .owl-next, .owl-prev {
- color: #fff;
- font-size: 14px;
- margin: 5px;
- padding: 4px 7px;
- background: #d6d6d6;
- display: inline-block;
- cursor: pointer;
- -webkit-border-radius: 3px;
- -moz-border-radius: 3px;
- border-radius: 3px;
- }
- .owl-dot {
- display: inline-block;
- border: solid 2px #9E5A5A;
- width: 15px;
- height: 15px;
- margin: 5px;
- border-radius: 50%;
- }
- .owl-dot.active {
- background: #CAB4B4;
- }
