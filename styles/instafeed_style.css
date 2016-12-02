@@ -1,3 +1,9 @@
+#instafeed :hover {
+	cursor: pointer;
+	height:5%;
+	width: 5%;
+}
+
 #instafeed a {
   padding:5px 5px 1px 5px;
   margin:10px;
@@ -30,7 +36,4 @@
 
 #instafeed a:hover .likes {
 	opacity:1;
-	cursor: pointer;
-	height:475px;
-	width: 350px;
 }
