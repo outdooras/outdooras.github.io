@@ -10,10 +10,10 @@ jQuery( document ).ready(function($) {
  after: function() {
  $('.owl-carousel').owlCarousel({
  items:3,
- loop:true,
+ loop:false,
  margin:1,
  nav: true,
- autoplay: true
+ autoplay: true,
  });
 
  }
