@@ -15,6 +15,8 @@ jQuery( document ).ready(function($) {
  navigation: true,
  navigationText: true,
  autoPlay: true,
+  itemsDesktop : [1199,3],
+  itemsDesktopSmall : [979,3]
  });
 
  }
