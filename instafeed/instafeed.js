@@ -32,7 +32,6 @@ jQuery( document ).ready(function($) {
   })
   $(".stop").click(function(){
     owl.trigger('owl.stop');
-  })
  }
  });
  feed.run();
