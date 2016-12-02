@@ -12,8 +12,9 @@ jQuery( document ).ready(function($) {
  items:3,
  loop:false,
  margin:1,
- nav: true,
- autoplay: true,
+ navigation: true,
+ navigationText: true,
+ autoPlay: true,
  });
 
  }
