@@ -40,7 +40,7 @@ var feed = new Instafeed({
       $(image).addClass('animated flipInX');
     });
   },
-  template: '<div class="col-lg-2 col-sm-12 col-xs-12"><a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div><div class="likes">{{caption}}</div></a></div>'
+  template: '<div class="col-lg-2 col-sm-12 col-xs-12"><a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div><div class="caption">{{caption}}</div></a></div>'
 });
 feed.run();
 </script>
