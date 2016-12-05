@@ -15,9 +15,9 @@ jQuery( document ).ready(function($) {
 	itemsTablet: [600,2], //2 items between 600 and 0
 	itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
 	loop:false,
-	margin:1,
+	margin:0.5,
 	navigation: true,
-	navigationText: true,
+	/*navigationText: true,*/
 	autoPlay: true,
  });
  
