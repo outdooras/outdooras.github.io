@@ -19,6 +19,7 @@ jQuery( document ).ready(function($) {
 	navigation: true,
 	/*navigationText: true,*/
 	autoPlay: true,
+	pagination: false,
  });
  
  }
