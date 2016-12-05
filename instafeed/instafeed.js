@@ -9,10 +9,10 @@ jQuery( document ).ready(function($) {
  
  after: function() {
  $('.owl-carousel').owlCarousel({
-	items : 5, //10 items above 1000px browser width
-	itemsDesktop : [1000,5], //5 items between 1000px and 901px
-	itemsDesktopSmall : [900,3], // betweem 900px and 601px
-	itemsTablet: [600,2], //2 items between 600 and 0
+	items : 2, //2 items above 1000px browser width
+	itemsDesktop : [1000,2], //5 items between 1000px and 901px
+	itemsDesktopSmall : [900,1], // betweem 900px and 601px
+	itemsTablet: [600,1], //2 items between 600 and 0
 	itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
 
 	margin:0.5,
