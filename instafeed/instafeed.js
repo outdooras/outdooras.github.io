@@ -14,12 +14,29 @@ jQuery( document ).ready(function($) {
 	itemsDesktopSmall : [900,3], // betweem 900px and 601px
 	itemsTablet: [600,2], //2 items between 600 and 0
 	itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
-	loop:false,
+
 	margin:0.5,
-	navigation: true,
-	/*navigationText: true,*/
-	autoPlay: true,
+	
+	//Pagination
 	pagination: false,
+	loop:false,
+	
+	// Autoplay
+	autoPlay: true,
+	stopOnHover: true,
+	
+	// Navigation
+	navigationText : ["forrige","neste"],
+	navigation: true,
+	
+    // CSS Styles
+    baseClass : "owl-carousel",
+    theme : "owl-theme",
+	
+	//Mouse Events
+    dragBeforeAnimFinish : true,
+    mouseDrag : true,
+    touchDrag : true,
  });
  
  }
