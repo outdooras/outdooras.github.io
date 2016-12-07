@@ -18,11 +18,12 @@ jQuery( document ).ready(function($) {
 	*/
 	singleItem: true, // One image slide
 	margin:0.5,
+	transitionStyle : "fade",
 	
 	//Pagination
 	pagination: false,
 	loop:false,
-	
+		
 	// Autoplay
 	autoPlay: true,
 	stopOnHover: true,
