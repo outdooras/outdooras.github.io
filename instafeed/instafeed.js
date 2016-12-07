@@ -4,7 +4,7 @@ jQuery( document ).ready(function($) {
  userId: 2162912851,
  accessToken: '2162912851.1677ed0.eb4c604e9f6b42d788f586a965d7b7af',
  resolution: 'thumbnail',
- template: '<a href="{{link}}" target="_blank"><img src="{{image}}" style="border-radius: 25px"; /><div class="likes">&hearts; {{likes}}</div></a>',
+ template: '<a href="{{link}}" target="_blank"><img src="{{image}}"; /><div class="likes">&hearts; {{likes}}</div></a>',
  target: 'instafeed',
  
  after: function() {
