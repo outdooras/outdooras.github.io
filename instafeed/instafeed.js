@@ -29,7 +29,7 @@ jQuery( document ).ready(function($) {
 	stopOnHover: true,
 	
 	// Navigation
-	navigationText : ["forrige","neste"],
+	navigationText : ["Forrige","Neste"],
 	navigation: true,
 	
     // CSS Styles

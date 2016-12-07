@@ -5,7 +5,8 @@
 
 .owl-theme .owl-controls{
 	margin-top: 5px;
-	text-align: center;
+	/*text-align: center;*/
+	margin-left:7%;
 }
 
 /* Styling Next and Prev buttons */
