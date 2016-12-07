@@ -43,8 +43,6 @@
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
-	left: -45px;
-    top: 45%;
 	
 }
 .owl-controls {
@@ -54,7 +52,6 @@
 	-ms-user-select: none;
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	
 }
 
 /* mouse grab icon */
@@ -88,6 +85,8 @@
 	background: #869791;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
+	left: -45px;
+    top: 45%;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
