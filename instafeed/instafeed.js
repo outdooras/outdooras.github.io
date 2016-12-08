@@ -18,7 +18,7 @@ jQuery( document ).ready(function($) {
 	*/
 	singleItem: true, // One image slide
 	margin:0.5,
-	transitionStyle : "backSlide",
+	transitionStyle : "fade",
 	
 	//Pagination
 	pagination: false,
